@@ -1,0 +1,134 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+image, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Page Layout */
+
+body {
+    display: grid;
+    place-items: center;
+    font-family: "Kumbh Sans", "sans-serif";
+    min-height: 100vh;
+    background: linear-gradient(hsl(273, 75%, 66%) 13%, hsl(240, 73%, 65%));
+}   
+
+.faq {
+    height: 35rem;
+    width: 60rem;
+    background-color: white;
+    display: flex;
+    padding: 6rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.illustration {    
+    height: 50rem;
+    width: 24rem;
+    display: flex;
+    position: relative;
+    right: 31rem;
+    bottom: 14rem;
+}
+
+.header {
+    padding-bottom: 2rem;
+}
+
+details > summary {
+    list-style: none;
+  }
+  
+  details > summary::marker,
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+.question {
+    padding-bottom: 1rem;
+    cursor: pointer;
+    padding-top: 1rem;
+    color: hsl(237, 12%, 33%);
+}
+
+.question:hover {
+    color: hsl(14, 88%, 65%);
+}
+
+.answer {
+    padding-bottom: 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: hsl(240, 6%, 50%);
+}
+
+details summary::before { 
+    content:"⌄"; 
+    color: hsl(14, 88%, 65%);
+    padding-right: 0.7rem;
+}
+
+details[open] summary::before { 
+    content:"⌃"; 
+    color: hsl(14, 88%, 65%);
+}
+
+.border {
+    border-bottom: 0.1rem solid hsl(240, 5%, 91%);
+}
+
+.overlay-illustration {
+    display: flex;
+    position: relative;
+    right: 33rem;
+}
+
+.text-segment {
+    margin-left: -30rem;
+}
+
+.outside-box {
+    position: absolute;
+    left: 25rem;
+    top: 19rem;
+}
+
+.attribution {
+    color: hsl(240, 13%, 17%);
+    font-size: 1.4rem;
+}
+
+a {
+    color: hsl(273, 69%, 69%)
+}
+
+a:hover {
+    color: hsl(305, 68%, 73%)
+}
