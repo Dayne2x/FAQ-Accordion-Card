@@ -76,6 +76,7 @@ details > summary {
     cursor: pointer;
     padding-top: 1rem;
     color: hsl(237, 12%, 33%);
+    font-weight: 700;
 }
 
 .question:hover {
@@ -87,6 +88,7 @@ details > summary {
     cursor: pointer;
     font-size: 0.9rem;
     color: hsl(240, 6%, 50%);
+    font-weight: 400;
 }
 
 details summary::before { 
@@ -114,10 +116,10 @@ details[open] summary::before {
     margin-left: -30rem;
 }
 
-.outside-box {
+.box {
     position: absolute;
-    left: 25rem;
-    top: 19rem;
+    left: 24rem;
+    bottom: 28rem;
 }
 
 .attribution {
