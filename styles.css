@@ -118,8 +118,8 @@ details[open] summary::before {
 
 .box {
     position: absolute;
-    left: 24rem;
-    bottom: 28rem;
+    left: 16rem;
+    bottom: 27rem;
 }
 
 .attribution {
@@ -128,7 +128,7 @@ details[open] summary::before {
 }
 
 a {
-    color: hsl(273, 69%, 69%)
+    color: white;
 }
 
 a:hover {
